@@ -11,12 +11,12 @@
   var firstInteger;
   var secondInteger;
 
-  firstInteger = parseInt(window.prompt("Please enter the first number"));
+  firstInteger = window.prompt("Please enter the first number");
   secondInteger = parseInt(window.prompt("Please enter the second number"));
 
   if (firstInteger>secondInteger) {
    document.body.style.backgroundColor = 'lightBlue';
-   document.write(firstInteger+">"+secondInteger);
+   document.write(parseInt(firstInteger)+">"+secondInteger);
   }
   else if (secondInteger>firstInteger) {
    document.body.style.backgroundColor = 'lightGreen';
