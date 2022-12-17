@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+ <script>
+
+  var firstInteger;
+  var secondInteger
+
+  firstInteger = window.prompt("Please enter the first number");
+  secondInteger = window.prompt("Please enter the second number");
+
+  if (firstInteger>secondInteger) {
+   document.body.style.backgroundColor = 'lightBlue';
+   document.write("firstInput>secondInput");
+  }
+  else if (secondInteger>firstInteger) {
+   document.body.style.backgroundColor = 'lightGreen';
+   document.write("secondInput>firstInput"); 
+  }
+  else{
+   document.body.style.backgroundColor = 'lightYellow';
+   document.write("secondInput == firstInput"); 
+  }
+
+
+ </script>>
+
+</body>
+</html>
